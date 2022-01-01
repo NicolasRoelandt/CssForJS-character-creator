@@ -4,6 +4,14 @@ body,
   height: 100%;
 }
 
+.bar {
+  background-color: hsl(195deg, 20%, 86%);
+  height: 40%;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
 body {
   background-color: hsl(180deg, 25%, 92%);
   margin: 0;
@@ -12,7 +20,7 @@ body {
 *,
 *:before,
 *:after {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 

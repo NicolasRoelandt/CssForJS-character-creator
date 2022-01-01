@@ -5,7 +5,6 @@
 }
 
 .maxWidthWrapper {
-  isolation: isolate;
 }
 
 .header {
@@ -35,12 +34,4 @@
 
 .controlColumn {
   max-width: 50%;
-}
-
-.bar {
-  background-color: hsl(195deg, 20%, 86%);
-  height: 50%;
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
 }
