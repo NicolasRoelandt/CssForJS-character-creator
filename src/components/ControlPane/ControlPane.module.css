@@ -4,12 +4,14 @@
   padding-top: 18px;
   background-color: white;
   border-radius: 8px;
+  white-space: nowrap;
   /*
     HACK: Margin on an outer bound like this is
     a little gross, but we haven't seen the tools
     to deal with it yet!
   */
   margin-bottom: 32px;
+  overflow: auto;
 }
 
 .title {
